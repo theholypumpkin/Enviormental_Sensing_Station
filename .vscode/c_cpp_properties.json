@@ -1,0 +1,111 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/include",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/src",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/lib/ble_definitions/src",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/lib/GP2Y1010sensor-master",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Arduino Low Power/src",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/RTCZero/src",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/JC_Button/src",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit CCS811 Library",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit BusIO",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/ArduinoBLE/src",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/DHT sensor library",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit Unified Sensor",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated-avr-comp",
+                "/home/pascal/.platformio/packages/framework-cmsis@1.40500.0/CMSIS/Include",
+                "/home/pascal/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/cores/arduino",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/variants/nano_33_iot",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit GFX Library",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit SSD1306",
+                "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/ble_definitions/src",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/HID",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SBU/src",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SFU/src",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SNU/src",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SSU/src",
+                "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/include",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/src",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/lib/ble_definitions/src",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/lib/GP2Y1010sensor-master",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Arduino Low Power/src",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/RTCZero/src",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/JC_Button/src",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit CCS811 Library",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit BusIO",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SPI",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/Wire",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/ArduinoBLE/src",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/DHT sensor library",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit Unified Sensor",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/cores/arduino/api/deprecated-avr-comp",
+                    "/home/pascal/.platformio/packages/framework-cmsis@1.40500.0/CMSIS/Include",
+                    "/home/pascal/.platformio/packages/framework-cmsis-atmel/CMSIS/Device/ATMEL",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/cores/arduino",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/variants/nano_33_iot",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit GFX Library",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/Adafruit SSD1306",
+                    "/home/pascal/data/.Documents/Private Documents/Developer/C++/Personal/Projects/Smart Home/Enviormental_Sensing_Station/.pio/libdeps/nano_33_iot/ble_definitions/src",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/HID",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/I2S/src",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SAMD_AnalogCorrection/src",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SAMD_BootloaderUpdater/src",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SBU/src",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SDU/src",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SFU/src",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SNU/src",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/SSU/src",
+                    "/home/pascal/.platformio/packages/framework-arduino-samd/libraries/USBHost/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50203",
+                "ARDUINO_SAMD_NANO_33_IOT",
+                "CRYSTALLESS",
+                "__SAMD21G18A__",
+                "ARDUINO=10805",
+                "F_CPU=48000000L",
+                "USBCON",
+                "USB_VID=0x2341",
+                "USB_PID=0x8057",
+                "USB_PRODUCT=\"Arduino NANO 33 IoT\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "ARDUINO_ARCH_SAMD",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/pascal/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m0plus",
+                "-mthumb",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
