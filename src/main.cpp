@@ -80,11 +80,11 @@
 #include <Dns.h>
 #include <Dhcp.h>
 // TODO Add the E-Paper SPI Screen Library
-// TODO Add the
+// TODO Analog Read soil mousture
 #endif
 /*_______________________________________________________________________________________________*/
 #ifdef ARDUINO_AVR_LEONARDO
-#include <GP2Y1010sensor.h>
+#include <GP2Y1010sensor.h> // A dust sensor
 #endif
 /*===============================================================================================*/
 //Global Variables
@@ -175,7 +175,7 @@ DHT dht(DHTPIN, DHTTYPE);
 // Add the Dust Sensor library only on the leonardo (which is buildin to my latte panda)
 GP2Y1010sensor DustSensor;
 #endif
-// TODO XIAO setup soil moustior sensor
+// TODO ARDUINO_AVR_LEONARDO setup soil moustior sensor
 /*===============================================================================================*/
 void setup()
 {
@@ -207,7 +207,7 @@ void setup()
   /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
   css.setDriveMode(CCS811_DRIVE_MODE_10SEC); //For DEBUG only
   //TODO uncoment the line below, and comment the line above
-  ccs.setDriveMode(CCS811_DRIVE_MODE_60SEC); // Measure only every 60 seconds
+  // ccs.setDriveMode(CCS811_DRIVE_MODE_60SEC); // Measure only every 60 seconds
   // CCS has a lot of clockdrifing about a second every minute
   // ccs.enableInterrupt();
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
